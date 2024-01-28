@@ -7,6 +7,6 @@ def get_new_number():
 
 
 def add_phone_number(file_name):
-    info = ','.join(get_new_number())
+    info = ' , '.join(get_new_number())
     with open(file_name, 'a', encoding='utf-8') as file:
         file.write(f'{info}\n')
